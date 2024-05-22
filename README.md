@@ -37,8 +37,12 @@ This data frame contains the following columns:<br>
 `lstat` : lower status of the population (percent).<br>
 `medv` : median value of owner-occupied homes in \$1000s.<br>
 
-<br><br>
-<b>Source</b><br>
-Harrison, D. and Rubinfeld, D.L. (1978) Hedonic prices and the demand for clean air. J. Environ. Economics and Management 5, 81–102.
 
-Belsley D.A., Kuh, E. and Welsch, R.E. (1980) Regression Diagnostics. Identifying Influential Data and Sources of Collinearity. New York: Wiley.
+### Model Evaluation
+
+metrics|lin_reg|sgd_reg|tre_reg|xgb_reg|rfo_reg|vot_reg
+---|---|---|---|---|---|---
+mae|3.4115279080479524|3.244144494005605|2.680823313216464|2.3461977500915525|2.353746723956774|2.196603454781419
+mse|21.041489159411103|19.288376170119967|12.373920488113987|10.161532239317806|9.191052839842076|8.721680948095814
+rmse|4.587100299689457|4.391853386683118|3.5176583813829887|3.1877158341542624|3.0316749231805966|2.9532492187581822
+r2|0.7254687959254533|0.7483419023003204|0.8385557569148918|0.8674210907903099|0.8800830690395277|0.8862070286900839
